@@ -3,8 +3,7 @@
 address =  socket.gethostbyname(socket.gethostname())
 port = 5000
 byte = 1024
-client =socket.socket(socket.AF_INET ,socket.SOCK_DGRAM)#udp de tek socket yeterlidir bağlantı kurulmadığı için 
-
+client =socket.socket(socket.AF_INET ,socket.SOCK_DGRAM)
 
 while True:
     message = input("text: ")
